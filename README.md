@@ -1,1 +1,1 @@
-# sadik-sblog
+# sadiksblog
