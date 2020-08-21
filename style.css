@@ -41,6 +41,7 @@ nav a {
 }
 nav a:hover {
 	color: yellow;
+	text-decoration: none;
 }
 .header {
 	color: white;
@@ -171,7 +172,7 @@ a:hover {
 	color: black;
 	font-weight: lighter;
 }
-li a:hover {
+.right_bar li a:hover {
 	color: blue;
 	text-decoration: none;
 }
