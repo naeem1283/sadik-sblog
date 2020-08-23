@@ -142,11 +142,12 @@ nav a:hover {
 .copyright{
 	padding-top: 2%;
 	padding-bottom: 1%;
-	font-size: 80%;
+	font-size: 75%;
 	color: white;
+	font-weight: lighter;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: none !important;
 	color: white;
 	opacity: 1;
 }
@@ -177,13 +178,33 @@ a:hover {
 	text-decoration: none;
 }
 .tags li {
-	border: 0px solid black;
-	margin-top: .3rem;
-	margin-bottom: .3rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
 }
 .tags a {
 	color: black;
 	background-color: #d0cecf;
+	font-weight: lighter;
+}
+.contact{
+	margin: 2% 0;
+}
+.contact i {
+	font-size: 350%;
+}
+.follow_me {
+	margin: 5% 2%; 
+}
+.icon-bar {
+	margin: 2% 0;
+}
+.icon-bar a {
+	color: black;
+	font-size: 200%;
+	margin: 2%;
+}
+.icon-bar a:hover {
+	color: blue;
 }
 @media only screen and (min-width: 986px) {
 	.col-pc-1 {width:8.33%;}
@@ -262,4 +283,9 @@ a:hover {
 	.post_title {
 	font-size: 250%;
 	}
+
+	nav{
+	display: none !important;
+	}
+
 }
